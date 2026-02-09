@@ -18,24 +18,26 @@ const AboutSection = () => {
               Sobre
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
-              Uma vida dedicada ao <br />
-              <span className="italic text-accent">estudo das religiões</span>
+              Marcelo Ayres Camurça <br />
+              <span className="italic text-accent">Ciência da Religião</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
               <p>
-                Com mais de cinco décadas de atuação acadêmica, o professor se consolidou
-                como uma das principais referências no estudo comparado das religiões no Brasil.
-                Sua trajetória é marcada pelo compromisso com o diálogo inter-religioso e a
-                compreensão profunda das tradições de fé.
+                Professor Titular do Departamento de Ciência da Religião da Universidade
+                Federal de Juiz de Fora (UFJF), Marcelo Ayres Camurça é uma das principais
+                referências brasileiras no estudo das religiões, com pesquisas que abrangem
+                laicidade, pluralismo religioso e espiritualidades contemporâneas.
               </p>
               <p>
-                Formado em Teologia e Filosofia, com doutorado em Ciências da Religião,
-                dedicou sua carreira a construir pontes entre diferentes tradições religiosas,
-                sempre com rigor acadêmico e respeito às diversidades.
+                Pesquisador do CNPq e membro do ISER (Instituto de Estudos da Religião),
+                sua trajetória acadêmica é marcada pela interlocução entre as Ciências Sociais
+                e as Ciências da Religião, contribuindo para o avanço teórico e metodológico
+                da área no Brasil.
               </p>
               <p>
-                Autor de diversos livros e artigos científicos, suas obras são referência
-                obrigatória em cursos de graduação e pós-graduação em todo o país.
+                Autor de livros e dezenas de artigos científicos publicados em periódicos
+                nacionais e internacionais, suas obras são referência obrigatória nos programas
+                de pós-graduação em Ciência da Religião do país.
               </p>
             </div>
           </div>
