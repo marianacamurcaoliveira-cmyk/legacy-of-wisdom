@@ -2,28 +2,22 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
-    title: "A Secularização Revisitada: Novos Paradigmas para o Estudo da Religião",
-    journal: "Revista Brasileira de Ciências da Religião",
-    year: "2023",
-    abstract: "Este artigo revisita o debate sobre secularização à luz de dados recentes sobre o crescimento religioso no Sul Global.",
-  },
-  {
-    title: "O Pentecostalismo e a Transformação Social no Brasil",
-    journal: "Estudos Avançados — USP",
+    title: "O debate acerca das noções de \"Intolerância Religiosa\" e \"Racismo Religioso\" para a compreensão da violência contra as Religiões Afro-brasileiras",
+    journal: "Revista OQ",
     year: "2022",
-    abstract: "Análise do impacto do movimento pentecostal nas dinâmicas sociais e políticas brasileiras nas últimas décadas.",
+    abstract: "Discussão sobre os conceitos de intolerância religiosa e racismo religioso como ferramentas analíticas para compreender a violência praticada contra as religiões de matriz africana no Brasil.",
   },
   {
-    title: "Diálogo Inter-religioso e Direitos Humanos",
+    title: "A questão da laicidade no Brasil: mosaico de configurações e arena de controvérsias",
     journal: "Horizonte — PUC Minas",
-    year: "2021",
-    abstract: "Uma reflexão sobre como o diálogo entre religiões pode contribuir para a promoção dos direitos humanos universais.",
+    year: "2017",
+    abstract: "Análise das múltiplas configurações da laicidade no contexto brasileiro, examinando as controvérsias em torno da relação entre Estado, esfera pública e religião.",
   },
   {
-    title: "Mística Cristã e Tradições Orientais: Pontos de Convergência",
-    journal: "Numen — UFJF",
-    year: "2020",
-    abstract: "Estudo comparativo entre a mística cristã medieval e práticas contemplativas do budismo e hinduísmo.",
+    title: "Estilos de Espiritualidade como Critério para Tipologias e Interpretações do Campo Religioso na Contemporaneidade",
+    journal: "Ciências Sociais e Religião — Porto Alegre",
+    year: "2016",
+    abstract: "Proposta de utilização dos estilos de espiritualidade como critério analítico para a construção de tipologias e interpretações do campo religioso contemporâneo.",
   },
 ];
 

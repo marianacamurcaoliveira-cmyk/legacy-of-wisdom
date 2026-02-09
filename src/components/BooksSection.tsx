@@ -2,40 +2,16 @@ import { ExternalLink } from "lucide-react";
 
 const books = [
   {
-    title: "O Sagrado e o Profano na Modernidade",
-    year: "2018",
-    description: "Uma análise profunda sobre como as sociedades contemporâneas reinterpretam conceitos religiosos fundamentais.",
-    category: "Sociologia da Religião",
+    title: "Ciências Sociais e Ciências da Religião: Polêmicas e Interlocuções",
+    year: "2008",
+    description: "Publicado pela Editora Paulinas, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
+    category: "Epistemologia",
   },
   {
-    title: "Diálogos Inter-religiosos: Caminhos para a Paz",
-    year: "2014",
-    description: "Propostas concretas para o diálogo entre diferentes tradições de fé no contexto brasileiro.",
-    category: "Ecumenismo",
-  },
-  {
-    title: "Teologia e Filosofia: Encontros e Desencontros",
-    year: "2009",
-    description: "Uma investigação sobre as relações históricas entre pensamento teológico e filosófico ocidental.",
-    category: "Teologia",
-  },
-  {
-    title: "Religiões do Mundo: Uma Introdução",
+    title: "Corpo, Emoção e Rito: Antropologia dos Carismáticos Católicos",
     year: "2003",
-    description: "Manual introdutório sobre as grandes tradições religiosas, adotado em universidades de todo o Brasil.",
-    category: "Introdução",
-  },
-  {
-    title: "Mística e Racionalidade",
-    year: "1995",
-    description: "Estudo pioneiro sobre a relação entre experiência mística e pensamento racional na tradição cristã.",
-    category: "Mística",
-  },
-  {
-    title: "A Fé na Era da Informação",
-    year: "2021",
-    description: "Como as novas tecnologias e mídias sociais transformam a vivência religiosa no século XXI.",
-    category: "Contemporâneo",
+    description: "Estudo antropológico sobre o movimento carismático católico, analisando as dimensões corporais, emocionais e rituais dessa expressão religiosa.",
+    category: "Antropologia",
   },
 ];
 
