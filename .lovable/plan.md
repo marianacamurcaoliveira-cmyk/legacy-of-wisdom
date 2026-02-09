@@ -1,43 +1,31 @@
 
 
-# Atualizar ArticlesSection com dados reais do Prof. Marcelo Camurça
-
-## Objetivo
-Substituir os artigos placeholder na seção de artigos pelo conteudo real encontrado sobre o Professor Marcelo Ayres Camurça (UFJF).
-
-## Dados reais encontrados
-
-Com base nas buscas realizadas, os seguintes artigos foram identificados:
-
-| # | Titulo | Revista | Ano |
-|---|--------|---------|-----|
-| 1 | Estilos de Espiritualidade como Criterio para Tipologias e Interpretacoes do Campo Religioso na Contemporaneidade | Ciencias Sociais e Religiao (Porto Alegre) | 2016 |
-| 2 | A questao da laicidade no Brasil: mosaico de configuracoes e arena de controversias | Horizonte (PUC Minas) | 2017 |
-| 3 | O debate acerca das nocoes de "Intolerancia Religiosa" e "Racismo Religioso" para a compreensao da violencia contra as Religioes Afro-brasileiras | Revista OQ | 2022 |
+# Atualizar foto, titulo e imagem hero do site
 
 ## Alteracoes
 
-### 1. Atualizar `src/components/ArticlesSection.tsx`
-- Substituir o array `articles` com os dados reais acima
-- Atualizar os resumos (abstracts) com base nas descricoes encontradas nos PDFs e paginas
-- Manter a mesma estrutura visual do componente
+### 1. Adicionar foto do professor ao projeto
+- Copiar a imagem enviada (`user-uploads://image.png`) para `src/assets/professor-marcelo.jpg`
+- Esta foto sera usada na secao "Sobre" do site
 
-### 2. Atualizar `src/components/AboutSection.tsx`
-- Atualizar o nome do professor para "Marcelo Ayres Camurca"
-- Atualizar a descricao para incluir: Professor Titular UFJF, Departamento de Ciencia da Religiao, pesquisador CNPq, membro do ISER
+### 2. Substituir imagem de fundo do Hero
+- Gerar uma nova imagem de fundo mais adequada para o hero (abstrata, academica, com livros/tons quentes) para substituir a atual `src/assets/hero-bg.jpg` que esta com uma "imagem estranha"
+- Alternativa: usar um fundo com gradiente solido elegante em tons marrom/dourado sem imagem
 
-### 3. Atualizar `src/components/BooksSection.tsx`
-- Adicionar os livros reais encontrados:
-  - "Ciencias Sociais e Ciencias da Religiao: Polemicas e Interlocucoes" (Paulinas, 2008)
-  - "Corpo, Emocao e Rito: Antropologia dos Carismaticos Catolicos"
+### 3. Atualizar titulo do site (aba do navegador)
+- Alterar `index.html`: titulo de "Lovable App" para "Prof. Marcelo Camurca"
+- Atualizar meta tags (og:title, description) para refletir o professor
 
-## Observacao importante
+### 4. Adicionar foto na secao Sobre
+- Atualizar `src/components/AboutSection.tsx` para incluir a foto do professor ao lado do texto biografico, substituindo ou complementando a area de estatisticas
 
-O site do Google Sites do professor bloqueou o acesso automatico, entao a lista de artigos pode estar incompleta. E altamente recomendado que o usuario forneca a lista completa de artigos copiando o conteudo da pagina diretamente no chat para garantir precisao total.
+### 5. Atualizar Header
+- Mudar "Prof. Scholar" para "Prof. Camurca" no logo do header (`src/components/Header.tsx`)
 
 ## Detalhes tecnicos
 
-- Apenas os dados dentro dos arrays serao alterados; a estrutura JSX e o estilo permanecem iguais
-- Arquivos modificados: `ArticlesSection.tsx`, `AboutSection.tsx`, `BooksSection.tsx`
+- Arquivos modificados: `index.html`, `src/components/AboutSection.tsx`, `src/components/Header.tsx`, `src/components/HeroSection.tsx`
+- Arquivo adicionado: `src/assets/professor-marcelo.jpg`
+- Arquivo substituido: `src/assets/hero-bg.jpg` (nova imagem gerada)
 - Nenhuma dependencia nova necessaria
 
