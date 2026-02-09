@@ -1,0 +1,60 @@
+import heroBg from "@/assets/hero-bg.jpg";
+
+const HeroSection = () => {
+  return (
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-brown-deep/70" />
+
+      <div className="relative z-10 container mx-auto px-6 text-center">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-gold-light text-sm uppercase tracking-[0.3em] mb-6 animate-fade-in font-sans font-medium">
+            Mais de 50 anos dedicados ao ensino e à pesquisa
+          </p>
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up leading-tight">
+            Fé, Conhecimento <br />
+            <span className="italic font-normal text-gold-light">&amp; Diálogo</span>
+          </h1>
+          <p className="text-primary-foreground/80 text-lg md:text-xl max-w-xl mx-auto mb-10 animate-fade-in-up font-sans font-light leading-relaxed"
+            style={{ animationDelay: "0.2s" }}
+          >
+            Explorando as intersecções entre religiões, cultura e sociedade
+            através da academia e do diálogo inter-religioso.
+          </p>
+          <div
+            className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
+            style={{ animationDelay: "0.4s" }}
+          >
+            <a
+              href="#livros"
+              className="px-8 py-3 bg-accent text-accent-foreground font-sans font-semibold text-sm uppercase tracking-wider rounded hover:bg-gold-light transition-colors"
+            >
+              Conhecer a Obra
+            </a>
+            <a
+              href="#sobre"
+              className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground font-sans font-medium text-sm uppercase tracking-wider rounded hover:bg-primary-foreground/10 transition-colors"
+            >
+              Sobre o Professor
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in" style={{ animationDelay: "1s" }}>
+        <div className="w-px h-16 bg-gradient-to-b from-gold-light to-transparent mx-auto" />
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
