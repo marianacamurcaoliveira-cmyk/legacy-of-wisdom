@@ -1,17 +1,13 @@
+import { Link } from "react-router-dom";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section
-      id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-    >
-      {/* Background image */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      {/* Overlay */}
       <div className="absolute inset-0 bg-brown-deep/70" />
 
       <div className="relative z-10 container mx-auto px-6 text-center">
@@ -23,7 +19,8 @@ const HeroSection = () => {
             Religião, Sociedade <br />
             <span className="italic font-normal text-gold-light">&amp; Pensamento Crítico</span>
           </h1>
-          <p className="text-primary-foreground/80 text-lg md:text-xl max-w-xl mx-auto mb-10 animate-fade-in-up font-sans font-light leading-relaxed"
+          <p
+            className="text-primary-foreground/80 text-lg md:text-xl max-w-xl mx-auto mb-10 animate-fade-in-up font-sans font-light leading-relaxed"
             style={{ animationDelay: "0.2s" }}
           >
             Mais de 50 anos dedicados à Ciência da Religião — investigando
@@ -33,23 +30,22 @@ const HeroSection = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
             style={{ animationDelay: "0.4s" }}
           >
-            <a
-              href="#livros"
+            <Link
+              to="/livros"
               className="px-8 py-3 bg-accent text-accent-foreground font-sans font-semibold text-sm uppercase tracking-wider rounded hover:bg-gold-light transition-colors"
             >
               Conhecer a Obra
-            </a>
-            <a
-              href="#sobre"
+            </Link>
+            <Link
+              to="/sobre"
               className="px-8 py-3 border border-primary-foreground/30 text-primary-foreground font-sans font-medium text-sm uppercase tracking-wider rounded hover:bg-primary-foreground/10 transition-colors"
             >
               Sobre o Professor
-            </a>
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in" style={{ animationDelay: "1s" }}>
         <div className="w-px h-16 bg-gradient-to-b from-gold-light to-transparent mx-auto" />
       </div>
