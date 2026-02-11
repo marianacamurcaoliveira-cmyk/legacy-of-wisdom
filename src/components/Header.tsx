@@ -29,7 +29,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#inicio" className="font-serif text-xl font-semibold text-foreground tracking-wide">
-          Prof. <span className="text-accent">Scholar</span>
+          Prof. <span className="text-accent">Camurça</span>
         </a>
 
         {/* Desktop nav */}
