@@ -2,22 +2,28 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
+    title: "Os fluxos da direita religiosa católica para o Brasil a partir dos EUA de Trump e do entorno tradicionalista do Vaticano",
+    journal: "Revista Brasileira de História das Religiões (ANPUH)",
+    year: "2023",
+    abstract: "Análise dos fluxos ideológicos da direita religiosa católica dos EUA e do Vaticano tradicionalista para o Brasil.",
+  },
+  {
     title: "O debate acerca das noções de \"Intolerância Religiosa\" e \"Racismo Religioso\" para a compreensão da violência contra as Religiões Afro-brasileiras",
     journal: "Revista OQ",
     year: "2022",
-    abstract: "Discussão sobre os conceitos de intolerância religiosa e racismo religioso como ferramentas analíticas para compreender a violência praticada contra as religiões de matriz africana no Brasil.",
+    abstract: "Discussão sobre os conceitos de intolerância religiosa e racismo religioso como ferramentas para compreender a violência contra as religiões afro-brasileiras.",
+  },
+  {
+    title: "Estado laico e dinâmicas religiosas no Brasil: tensões e dissonâncias",
+    journal: "Horizonte — PUC Minas",
+    year: "2020",
+    abstract: "Exame das tensões na relação entre o Estado laico e as dinâmicas religiosas no Brasil contemporâneo.",
   },
   {
     title: "A questão da laicidade no Brasil: mosaico de configurações e arena de controvérsias",
     journal: "Horizonte — PUC Minas",
     year: "2017",
-    abstract: "Análise das múltiplas configurações da laicidade no contexto brasileiro, examinando as controvérsias em torno da relação entre Estado, esfera pública e religião.",
-  },
-  {
-    title: "Estilos de Espiritualidade como Critério para Tipologias e Interpretações do Campo Religioso na Contemporaneidade",
-    journal: "Ciências Sociais e Religião — Porto Alegre",
-    year: "2016",
-    abstract: "Proposta de utilização dos estilos de espiritualidade como critério analítico para a construção de tipologias e interpretações do campo religioso contemporâneo.",
+    abstract: "Análise das múltiplas configurações da laicidade no contexto brasileiro e suas controvérsias.",
   },
 ];
 
