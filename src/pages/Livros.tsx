@@ -4,16 +4,32 @@ const books = [
   {
     title: "Ciências Sociais e Ciências da Religião: Polêmicas e Interlocuções",
     year: "2008",
-    description: "Publicado pela Editora Paulinas, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
+    publisher: "Editora Paulinas",
+    pages: "150 páginas",
+    isbn: "978-85-356-2161-7",
+    description: "Parte da coleção Repensando a Religião, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
     category: "Epistemologia",
     details: "A obra propõe uma reflexão aprofundada sobre a legitimidade epistemológica das Ciências da Religião, discutindo sua autonomia frente às Ciências Sociais e contribuindo para o debate sobre a constituição do campo de estudo da religião no Brasil.",
   },
   {
     title: "Corpo, Emoção e Rito: Antropologia dos Carismáticos Católicos",
     year: "2003",
-    description: "Estudo antropológico sobre o movimento carismático católico, analisando as dimensões corporais, emocionais e rituais dessa expressão religiosa.",
+    publisher: "Editora Vozes / PPCIR-UFJF",
+    pages: "",
+    isbn: "",
+    description: "Estudo antropológico sobre o movimento carismático católico, analisando as dimensões corporais, emocionais e rituais dessa expressão religiosa no Brasil.",
     category: "Antropologia",
-    details: "Baseado em extensa pesquisa de campo, o livro investiga como o corpo e as emoções são mobilizados nos rituais carismáticos católicos, oferecendo uma análise etnográfica detalhada desse fenômeno religioso contemporâneo.",
+    details: "Baseado em extensa pesquisa de campo etnográfica, o livro investiga como o corpo e as emoções são mobilizados nos rituais carismáticos católicos, oferecendo uma análise detalhada desse fenômeno religioso contemporâneo a partir da antropologia da religião.",
+  },
+  {
+    title: "Questões de Religiões: Teorias e Metodologias",
+    year: "2013",
+    publisher: "Editora UFGD",
+    pages: "",
+    isbn: "",
+    description: "Obra coletiva que reúne reflexões teóricas e metodológicas sobre o estudo das religiões, com capítulo de Marcelo Camurça.",
+    category: "Metodologia",
+    details: "O livro aborda diferentes perspectivas teórico-metodológicas para o estudo da religião, reunindo contribuições de pesquisadores de diversas universidades brasileiras sobre as questões fundamentais que permeiam a pesquisa acadêmica nesse campo.",
   },
 ];
 
@@ -56,6 +72,11 @@ const Livros = () => {
                 <p className="text-muted-foreground font-sans leading-relaxed mb-4">
                   {book.description}
                 </p>
+                <div className="flex flex-wrap gap-4 text-xs text-muted-foreground font-sans mb-4">
+                  <span>{book.publisher}</span>
+                  {book.pages && <span>• {book.pages}</span>}
+                  {book.isbn && <span>• ISBN: {book.isbn}</span>}
+                </div>
                 <p className="text-sm text-muted-foreground font-sans leading-relaxed">
                   {book.details}
                 </p>

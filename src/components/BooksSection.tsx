@@ -4,14 +4,20 @@ const books = [
   {
     title: "Ciências Sociais e Ciências da Religião: Polêmicas e Interlocuções",
     year: "2008",
-    description: "Publicado pela Editora Paulinas, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
+    description: "Publicado pela Editora Paulinas (coleção Repensando a Religião), examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
     category: "Epistemologia",
   },
   {
     title: "Corpo, Emoção e Rito: Antropologia dos Carismáticos Católicos",
     year: "2003",
-    description: "Estudo antropológico sobre o movimento carismático católico, analisando as dimensões corporais, emocionais e rituais dessa expressão religiosa.",
+    description: "Estudo antropológico sobre o movimento carismático católico, analisando as dimensões corporais, emocionais e rituais dessa expressão religiosa no Brasil.",
     category: "Antropologia",
+  },
+  {
+    title: "Questões de Religiões: Teorias e Metodologias",
+    year: "2013",
+    description: "Obra coletiva com capítulo do professor, reunindo reflexões teóricas e metodológicas sobre o estudo das religiões no Brasil.",
+    category: "Metodologia",
   },
 ];
 

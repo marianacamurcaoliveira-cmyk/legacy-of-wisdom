@@ -2,6 +2,13 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
+    title: "Os fluxos da direita religiosa católica para o Brasil a partir dos EUA de Trump e do entorno tradicionalista do Vaticano",
+    journal: "Revista Brasileira de História das Religiões (ANPUH)",
+    year: "2023",
+    abstract: "Análise dos fluxos ideológicos da direita religiosa católica dos EUA e do Vaticano tradicionalista para o Brasil, examinando a relação entre religião e política conservadora.",
+    keywords: ["Direita Religiosa", "Catolicismo", "Política"],
+  },
+  {
     title: "O debate acerca das noções de \"Intolerância Religiosa\" e \"Racismo Religioso\" para a compreensão da violência contra as Religiões Afro-brasileiras",
     journal: "Revista OQ",
     year: "2022",
@@ -9,11 +16,25 @@ const articles = [
     keywords: ["Intolerância Religiosa", "Racismo Religioso", "Religiões Afro-brasileiras"],
   },
   {
+    title: "Estado laico e dinâmicas religiosas no Brasil: tensões e dissonâncias",
+    journal: "Horizonte — PUC Minas",
+    year: "2020",
+    abstract: "Exame das tensões e dissonâncias na relação entre o Estado laico e as dinâmicas religiosas no Brasil contemporâneo, no contexto dos fundamentalismos e da democracia.",
+    keywords: ["Estado Laico", "Fundamentalismo", "Democracia"],
+  },
+  {
     title: "A questão da laicidade no Brasil: mosaico de configurações e arena de controvérsias",
     journal: "Horizonte — PUC Minas",
     year: "2017",
-    abstract: "Análise das múltiplas configurações da laicidade no contexto brasileiro, examinando as controvérsias em torno da relação entre Estado, esfera pública e religião.",
+    abstract: "Apresentação das relações entre religiões e Estado no Brasil, evitando enquadramentos teleológicos e explorando o mosaico de configurações da laicidade brasileira.",
     keywords: ["Laicidade", "Estado", "Esfera Pública"],
+  },
+  {
+    title: "Os 'Sem Religião' no Brasil: juventude, periferia, indiferentismo religioso e trânsito entre religiões institucionalizadas",
+    journal: "Ciências Sociais e Religião — Porto Alegre",
+    year: "2017",
+    abstract: "Análise do fenômeno dos 'sem religião' no Brasil, investigando sua relação com a juventude, as periferias e o trânsito entre diferentes expressões religiosas.",
+    keywords: ["Sem Religião", "Juventude", "Trânsito Religioso"],
   },
   {
     title: "Estilos de Espiritualidade como Critério para Tipologias e Interpretações do Campo Religioso na Contemporaneidade",
@@ -21,6 +42,20 @@ const articles = [
     year: "2016",
     abstract: "Proposta de utilização dos estilos de espiritualidade como critério analítico para a construção de tipologias e interpretações do campo religioso contemporâneo.",
     keywords: ["Espiritualidade", "Tipologias", "Campo Religioso"],
+  },
+  {
+    title: "Religiosidade moderna e esclarecida entre os universitários de Juiz de Fora — MG",
+    journal: "Debates do NER — UFRGS",
+    year: "2007",
+    abstract: "Estudo sobre as formas de religiosidade entre universitários da cidade de Juiz de Fora, analisando as configurações modernas e esclarecidas da vivência religiosa.",
+    keywords: ["Religiosidade", "Universidade", "Modernidade"],
+  },
+  {
+    title: "A laicidade e o 'jeitinho brasileiro': formas diversificadas e improvisadas de regulação do religioso em ambientes laicos e públicos",
+    journal: "Numen — UFJF",
+    year: "2019",
+    abstract: "Estudo de caso em escolas municipais de Juiz de Fora sobre as formas improvisadas de regulação do religioso em ambientes públicos e laicos.",
+    keywords: ["Laicidade", "Escola Pública", "Regulação"],
   },
 ];
 
