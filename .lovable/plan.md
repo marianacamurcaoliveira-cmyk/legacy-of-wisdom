@@ -1,31 +1,28 @@
 
 
-# Atualizar foto, titulo e imagem hero do site
+# Atualizar biografia do Prof. Marcelo Camurca como aposentado
 
-## Alteracoes
+## O que sera feito
 
-### 1. Adicionar foto do professor ao projeto
-- Copiar a imagem enviada (`user-uploads://image.png`) para `src/assets/professor-marcelo.jpg`
-- Esta foto sera usada na secao "Sobre" do site
+### 1. Atualizar texto na pagina inicial (AboutSection.tsx)
+- Mudar "Professor Titular" para "Professor Titular aposentado"
+- Ajustar o texto para refletir que ele continua atuante como pesquisador mesmo aposentado
 
-### 2. Substituir imagem de fundo do Hero
-- Gerar uma nova imagem de fundo mais adequada para o hero (abstrata, academica, com livros/tons quentes) para substituir a atual `src/assets/hero-bg.jpg` que esta com uma "imagem estranha"
-- Alternativa: usar um fundo com gradiente solido elegante em tons marrom/dourado sem imagem
+### 2. Atualizar texto na pagina Sobre (Sobre.tsx)
+- Mesmo ajuste: mencionar que e professor aposentado
+- Adicionar informacao de que continua atuante como pesquisador e escritor
 
-### 3. Atualizar titulo do site (aba do navegador)
-- Alterar `index.html`: titulo de "Lovable App" para "Prof. Marcelo Camurca"
-- Atualizar meta tags (og:title, description) para refletir o professor
+### 3. Enriquecer conteudo com dados encontrados na web
+- Adicionar o livro "Ciencias Sociais e Ciencias da Religiao - Polemicas e interlocucoes" (Paulinas, 2008) como obra de destaque
+- Mencionar a co-organizacao da edicao "A religiao no espaco publico" na Horizontes Antropologicos (2018)
+- Adicionar "Religiao no Espaco Publico" como area de pesquisa
+- Mencionar vinculo com a ABA (Associacao Brasileira de Antropologia) encontrado nas referencias
 
-### 4. Adicionar foto na secao Sobre
-- Atualizar `src/components/AboutSection.tsx` para incluir a foto do professor ao lado do texto biografico, substituindo ou complementando a area de estatisticas
-
-### 5. Atualizar Header
-- Mudar "Prof. Scholar" para "Prof. Camurca" no logo do header (`src/components/Header.tsx`)
+## Arquivos modificados
+- `src/components/AboutSection.tsx` -- texto da secao Sobre na home
+- `src/pages/Sobre.tsx` -- pagina dedicada com biografia completa
 
 ## Detalhes tecnicos
-
-- Arquivos modificados: `index.html`, `src/components/AboutSection.tsx`, `src/components/Header.tsx`, `src/components/HeroSection.tsx`
-- Arquivo adicionado: `src/assets/professor-marcelo.jpg`
-- Arquivo substituido: `src/assets/hero-bg.jpg` (nova imagem gerada)
+- Alteracoes apenas em texto/conteudo JSX, sem mudancas estruturais
 - Nenhuma dependencia nova necessaria
 
