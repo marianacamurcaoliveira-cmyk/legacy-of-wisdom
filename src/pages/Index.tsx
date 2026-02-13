@@ -34,10 +34,10 @@ const Index = () => {
                 Marcelo Ayres Camurça
               </h2>
               <p className="text-muted-foreground font-sans leading-relaxed mb-6">
-                Professor Titular do Departamento de Ciência da Religião da Universidade
+              Professor Titular aposentado do Departamento de Ciência da Religião da Universidade
                 Federal de Juiz de Fora (UFJF), é uma das principais referências brasileiras
-                no estudo das religiões, com pesquisas que abrangem laicidade, pluralismo
-                religioso e espiritualidades contemporâneas.
+                no estudo das religiões. Continua atuante como pesquisador e escritor, com pesquisas
+                que abrangem laicidade, pluralismo religioso e espiritualidades contemporâneas.
               </p>
               <Link
                 to="/sobre"
