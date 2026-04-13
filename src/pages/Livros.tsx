@@ -16,16 +16,40 @@ const books = [
     linkText: "Ver na editora",
   },
   {
-    title:
-      'Os "Melhores Filhos do Povo"',
+    title: 'Os "Melhores Filhos do Povo"',
+    year: "2015",
+    publisher: "Editora Appris",
+    description:
+      "Versão publicada da pesquisa sobre o MR8, abordando aspectos simbólicos, culturais e rituais da organização.",
+    category: "Antropologia",
+    details:
+      "Estudo antropológico sobre o imaginário, práticas e identidade de uma organização comunista no Brasil durante o período da ditadura.", // baseado na descrição :contentReference[oaicite:0]{index=0}
+    link: "https://www.amazon.com.br/Os-melhores-Filhos-do-Povo/dp/8581926703/ref=sr_1_6",
+    linkText: "Ver na Amazon",
+  },
+  {
+    title: 'Os "Melhores Filhos do Povo"',
     year: "1994",
     publisher: "PPGAS – Museu Nacional",
     description:
       "Tese de doutorado defendida em 1994 no PPGAS do Museu Nacional.",
-    category: "Antropologia",
+    category: "Tese de Doutorado",
     details:
-      'Os "Melhores filhos do Povo" - Um estudo do ritual e do simbólico numa organização comunista: O caso do MR8.',
+      'Um estudo do ritual e do simbólico numa organização comunista: O caso do MR8.',
     link: "https://b88532cb-2d92-4689-b6a8-a135e2c9b5d4.filesusr.com/ugd/613bfc_924fad6176384d35a6c6433bed4e0167.pdf",
+    linkText: "Acessar PDF",
+  },
+  {
+    title:
+      "Espiritismo e Nova Era - Interpelações ao Cristianismo Histórico",
+    year: "2014",
+    publisher: "Editora Santuário",
+    description:
+      "Uma análise das relações e diálogos entre o Espiritismo, a Nova Era e o Cristianismo histórico.",
+    category: "Religião",
+    details:
+      "Investigação das interações entre diferentes matrizes religiosas, com enfoque histórico e antropológico.",
+    link: "https://b88532cb-2d92-4689-b6a8-a135e2c9b5d4.filesusr.com/ugd/613bfc_2e49b65b95b545cc9eec6758d3b62194.pdf",
     linkText: "Acessar PDF",
   },
 ];
@@ -33,7 +57,6 @@ const books = [
 const Livros = () => {
   return (
     <div className="pt-24">
-      {/* Page header */}
       <section className="py-16 bg-secondary/50">
         <div className="container mx-auto px-6 text-center">
           <p className="text-accent text-sm uppercase tracking-[0.2em] mb-3 font-sans font-semibold">
@@ -48,13 +71,12 @@ const Livros = () => {
         </div>
       </section>
 
-      {/* Books list */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto space-y-12">
             {books.map((book) => (
               <article
-                key={book.title}
+                key={book.title + book.year}
                 className="group bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-all duration-300"
               >
                 <div className="flex items-center justify-between mb-4">
