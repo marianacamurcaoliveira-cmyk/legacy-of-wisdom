@@ -23,7 +23,7 @@ const books = [
       "Versão publicada da pesquisa sobre o MR8, abordando aspectos simbólicos e culturais.",
     category: "Antropologia",
     details:
-      "Estudo sobre identidade, ritual e imaginário em organização política brasileira.",
+      "Estudo antropológico sobre identidade, rituais e imaginário político no Brasil.",
     link: "https://www.amazon.com.br/Os-melhores-Filhos-do-Povo/dp/8581926703",
     linkText: "Ver na Amazon",
   },
@@ -44,11 +44,25 @@ const books = [
       "Espiritismo e Nova Era - Interpelações ao Cristianismo Histórico",
     year: "2014",
     publisher: "Editora Santuário",
+    pages: "240 páginas",
     description:
-      "Análise das relações entre Espiritismo, Nova Era e Cristianismo.",
+      "Analisa as relações, tensões e diálogos entre Espiritismo, Nova Era e Cristianismo.",
     category: "Religião",
     details:
-      "Estudo histórico e antropológico das interações entre essas correntes religiosas.",
+      "Estudo antropológico sobre as interações e influências entre diferentes matrizes religiosas na sociedade contemporânea.", // :contentReference[oaicite:0]{index=0}
+    link: "https://www.amazon.com.br/Espiritismo-Nova-Era-Marcelo-Camurca/dp/8536903392",
+    linkText: "Ver na Amazon",
+  },
+  {
+    title:
+      "Espiritismo e Nova Era - Interpelações ao Cristianismo Histórico",
+    year: "2014",
+    publisher: "Editora Santuário",
+    description:
+      "Versão digital da obra com análise das interações entre Espiritismo, Nova Era e Cristianismo.",
+    category: "PDF",
+    details:
+      "Discussão sobre tensões, influências e diálogos entre essas tradições religiosas.",
     link: "https://b88532cb-2d92-4689-b6a8-a135e2c9b5d4.filesusr.com/ugd/613bfc_2e49b65b95b545cc9eec6758d3b62194.pdf",
     linkText: "Acessar PDF",
   },
@@ -58,11 +72,24 @@ const books = [
     publisher: "Editora Vozes",
     pages: "136 páginas",
     description:
-      "Apresentação didática do Espiritismo em sete dimensões fundamentais.",
+      "Apresentação didática do espiritismo em sete dimensões fundamentais.",
     category: "Religião",
     details:
-      "Explora origem, doutrina, práticas e expansão do espiritismo de forma acessível.",
+      "Obra introdutória que sistematiza conceitos e práticas do espiritismo.",
     link: "https://www.amazon.com.br/Espiritismo-li%C3%A7%C3%B5es-Marcelo-Ayres-Camur%C3%A7a/dp/6557133292",
+    linkText: "Ver na Amazon",
+  },
+  {
+    title:
+      "Marretas, Molambudos, Rabelistas e Farrapos: Cultura Popular e Política no Nordeste",
+    year: "2001",
+    publisher: "Editora Vozes",
+    description:
+      "Análise da cultura popular e das manifestações políticas no Nordeste brasileiro.",
+    category: "Antropologia",
+    details:
+      "Estudo sobre movimentos, símbolos e identidades populares no contexto nordestino.",
+    link: "https://www.amazon.com.br/Marretas-Molambudos-Rabelistas-Nordestino-Portuguese/dp/8571804788",
     linkText: "Ver na Amazon",
   },
 ];
@@ -79,7 +106,7 @@ const Livros = () => {
             Livros Publicados
           </h1>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto font-sans">
-            Produção acadêmica e editorial na área de Ciências da Religião e Antropologia.
+            Produção acadêmica e editorial nas áreas de Ciências da Religião e Antropologia.
           </p>
         </div>
       </section>
