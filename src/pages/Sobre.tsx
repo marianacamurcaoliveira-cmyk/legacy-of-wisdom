@@ -68,6 +68,13 @@ const Sobre = () => {
                   (GSRL) da École Pratique des Hautes Études em Paris.
                 </p>
                 <p>
+                  Mesmo aposentado, continua atuante como pesquisador e escritor. É autor de obras de referência
+                  como <em>Ciências Sociais e Ciências da Religião — Polêmicas e Interlocuções</em> (Paulinas, 2008)
+                  e co-organizador da edição especial "A religião no espaço público" da revista{" "}
+                  <em>Horizontes Antropológicos</em> (2018), além de dezenas de artigos publicados em periódicos
+                  nacionais e internacionais.
+                </p>
+                <p>
                   Dedica-se aos estudos de Antropologia e Sociologia da Religião atuando nas Linhas de
                   Pesquisa de "Campo Religioso Brasileiro" e "Religião e Espaço Público". Desta perspectiva
                   produziu dezenas de livros, capítulos e artigos que estão todos disponibilizados neste site
