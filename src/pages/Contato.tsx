@@ -1,4 +1,4 @@
-import { Youtube, Instagram, Mail, BookOpen } from "lucide-react";
+import { Youtube, Instagram, Mail, BookOpen, Globe } from "lucide-react";
 
 const socialLinks = [
   {
@@ -22,13 +22,6 @@ const socialLinks = [
     href: "#",
     color: "hover:text-blue-500",
   },
-  {
-    icon: Mail,
-    label: "E-mail",
-    description: "Entre em contato para convites, parcerias e orientações acadêmicas.",
-    href: "#",
-    color: "hover:text-accent",
-  },
 ];
 
 const Contato = () => {
@@ -49,10 +42,47 @@ const Contato = () => {
         </div>
       </section>
 
-      {/* Social links */}
-      <section className="py-24 bg-background">
+      {/* Contact highlight */}
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-6">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="max-w-2xl mx-auto">
+            <div className="grid sm:grid-cols-2 gap-6">
+              <a
+                href="mailto:mcamurca@terra.com.br"
+                className="group flex items-center gap-4 bg-card border-2 border-accent/30 rounded-xl p-6 hover:border-accent hover:shadow-xl transition-all duration-300"
+              >
+                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center">
+                  <Mail className="w-7 h-7 text-accent" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg font-semibold text-foreground mb-1">E-mail</h3>
+                  <p className="text-sm text-accent font-sans font-medium">mcamurca@terra.com.br</p>
+                </div>
+              </a>
+              <a
+                href="https://www2.ufjf.br/ppcir/contato/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-4 bg-card border-2 border-accent/30 rounded-xl p-6 hover:border-accent hover:shadow-xl transition-all duration-300"
+              >
+                <div className="flex-shrink-0 w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center">
+                  <Globe className="w-7 h-7 text-accent" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-lg font-semibold text-foreground mb-1">PPCIR / UFJF</h3>
+                  <p className="text-sm text-accent font-sans font-medium">www2.ufjf.br/ppcir/contato</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Social links */}
+      <section className="py-16 bg-secondary/30">
+        <div className="container mx-auto px-6">
+          <h2 className="font-serif text-2xl font-bold text-foreground text-center mb-10">Redes Sociais</h2>
+          <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
             {socialLinks.map((social) => (
               <a
                 key={social.label}
