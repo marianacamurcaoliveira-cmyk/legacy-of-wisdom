@@ -2,67 +2,74 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
-    title: "Os fluxos da direita religiosa católica para o Brasil a partir dos EUA de Trump e do entorno tradicionalista do Vaticano",
-    journal: "Revista Brasileira de História das Religiões (ANPUH)",
-    year: "2023",
-    abstract: "Análise dos fluxos ideológicos da direita religiosa católica dos EUA e do Vaticano tradicionalista para o Brasil, examinando a relação entre religião e política conservadora.",
-    keywords: ["Direita Religiosa", "Catolicismo", "Política"],
+    title: "“Tutti Fratelli, ma non troppo”: religião e política na Igreja Católica contemporânea",
+    journal: "Revista Acadêmica",
+    year: "2025",
+    abstract:
+      "Análise das tensões entre universalismo e conservadorismo no interior da Igreja Católica, com foco nas disputas políticas contemporâneas.",
+    keywords: ["Catolicismo", "Política", "Religião"],
   },
   {
-    title: "O debate acerca das noções de \"Intolerância Religiosa\" e \"Racismo Religioso\" para a compreensão da violência contra as Religiões Afro-brasileiras",
-    journal: "Revista OQ",
-    year: "2022",
-    abstract: "Discussão sobre os conceitos de intolerância religiosa e racismo religioso como ferramentas analíticas para compreender a violência praticada contra as religiões de matriz africana no Brasil.",
-    keywords: ["Intolerância Religiosa", "Racismo Religioso", "Religiões Afro-brasileiras"],
+    title: "Um quantitativo inspirado e temperado pelo qualitativo",
+    journal: "Revista Acadêmica",
+    year: "2025",
+    abstract:
+      "Reflexão metodológica sobre a articulação entre abordagens quantitativas e qualitativas nos estudos de religião.",
+    keywords: ["Metodologia", "Pesquisa", "Religião"],
   },
   {
-    title: "Estado laico e dinâmicas religiosas no Brasil: tensões e dissonâncias",
-    journal: "Horizonte — PUC Minas",
-    year: "2020",
-    abstract: "Exame das tensões e dissonâncias na relação entre o Estado laico e as dinâmicas religiosas no Brasil contemporâneo, no contexto dos fundamentalismos e da democracia.",
-    keywords: ["Estado Laico", "Fundamentalismo", "Democracia"],
+    title: "Ativismo cristão juvenil de extrema direita no Brasil: o caso Nikolas Ferreira",
+    journal: "Revista Acadêmica",
+    year: "2025",
+    abstract:
+      "Estudo sobre o crescimento do ativismo cristão juvenil conservador no Brasil e suas conexões com a política contemporânea.",
+    keywords: ["Extrema Direita", "Juventude", "Cristianismo"],
   },
   {
-    title: "A questão da laicidade no Brasil: mosaico de configurações e arena de controvérsias",
-    journal: "Horizonte — PUC Minas",
-    year: "2017",
-    abstract: "Apresentação das relações entre religiões e Estado no Brasil, evitando enquadramentos teleológicos e explorando o mosaico de configurações da laicidade brasileira.",
-    keywords: ["Laicidade", "Estado", "Esfera Pública"],
+    title: "O que é a antropologia do cristianismo",
+    journal: "Revista Acadêmica",
+    year: "2024",
+    abstract:
+      "Discussão conceitual sobre o campo da antropologia do cristianismo e suas contribuições para o estudo das religiões.",
+    keywords: ["Antropologia", "Cristianismo", "Teoria"],
   },
   {
-    title: "Os 'Sem Religião' no Brasil: juventude, periferia, indiferentismo religioso e trânsito entre religiões institucionalizadas",
-    journal: "Ciências Sociais e Religião — Porto Alegre",
-    year: "2017",
-    abstract: "Análise do fenômeno dos 'sem religião' no Brasil, investigando sua relação com a juventude, as periferias e o trânsito entre diferentes expressões religiosas.",
-    keywords: ["Sem Religião", "Juventude", "Trânsito Religioso"],
+    title: "O consórcio religioso na arena pública no Brasil",
+    journal: "Revista Acadêmica",
+    year: "2024",
+    abstract:
+      "Análise das alianças e disputas entre diferentes grupos religiosos na esfera pública brasileira.",
+    keywords: ["Religião", "Política", "Esfera Pública"],
   },
   {
-    title: "Estilos de Espiritualidade como Critério para Tipologias e Interpretações do Campo Religioso na Contemporaneidade",
-    journal: "Ciências Sociais e Religião — Porto Alegre",
-    year: "2016",
-    abstract: "Proposta de utilização dos estilos de espiritualidade como critério analítico para a construção de tipologias e interpretações do campo religioso contemporâneo.",
-    keywords: ["Espiritualidade", "Tipologias", "Campo Religioso"],
+    title: "Defesa religiosa da castidade ou feminicídio: o caso da Beata Benigna (CE)",
+    journal: "Revista Acadêmica",
+    year: "2024",
+    abstract:
+      "Investigação sobre narrativas religiosas e violência de gênero no contexto da devoção popular no Ceará.",
+    keywords: ["Religião", "Gênero", "Violência"],
   },
   {
-    title: "Religiosidade moderna e esclarecida entre os universitários de Juiz de Fora — MG",
-    journal: "Debates do NER — UFRGS",
-    year: "2007",
-    abstract: "Estudo sobre as formas de religiosidade entre universitários da cidade de Juiz de Fora, analisando as configurações modernas e esclarecidas da vivência religiosa.",
-    keywords: ["Religiosidade", "Universidade", "Modernidade"],
+    title: "Democracia e diversidade na Igreja Católica",
+    journal: "Revista Acadêmica",
+    year: "2024",
+    abstract:
+      "Reflexão sobre os desafios da diversidade e pluralismo no interior da Igreja Católica contemporânea.",
+    keywords: ["Democracia", "Catolicismo", "Diversidade"],
   },
   {
-    title: "A laicidade e o 'jeitinho brasileiro': formas diversificadas e improvisadas de regulação do religioso em ambientes laicos e públicos",
-    journal: "Numen — UFJF",
-    year: "2019",
-    abstract: "Estudo de caso em escolas municipais de Juiz de Fora sobre as formas improvisadas de regulação do religioso em ambientes públicos e laicos.",
-    keywords: ["Laicidade", "Escola Pública", "Regulação"],
+    title: "Sonho e profecia no universo evangélico-pentecostal brasileiro",
+    journal: "Revista Acadêmica",
+    year: "2024",
+    abstract:
+      "Estudo das experiências de sonho e profecia no campo evangélico-pentecostal no Brasil.",
+    keywords: ["Pentecostalismo", "Profecia", "Religião"],
   },
 ];
 
 const Artigos = () => {
   return (
     <div className="pt-24">
-      {/* Page header */}
       <section className="py-16 bg-secondary/50">
         <div className="container mx-auto px-6 text-center">
           <p className="text-accent text-sm uppercase tracking-[0.2em] mb-3 font-sans font-semibold">
@@ -72,12 +79,11 @@ const Artigos = () => {
             Artigos Acadêmicos
           </h1>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto font-sans">
-            Contribuições acadêmicas publicadas em revistas científicas de referência.
+            Produção recente nas áreas de antropologia e ciências da religião.
           </p>
         </div>
       </section>
 
-      {/* Articles list */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto space-y-8">
@@ -91,14 +97,19 @@ const Artigos = () => {
                     {article.journal}
                   </span>
                   <span className="text-xs text-muted-foreground">•</span>
-                  <span className="text-xs text-muted-foreground font-sans">{article.year}</span>
+                  <span className="text-xs text-muted-foreground font-sans">
+                    {article.year}
+                  </span>
                 </div>
+
                 <h2 className="font-serif text-xl font-semibold text-foreground mb-4 group-hover:text-accent transition-colors leading-snug">
                   {article.title}
                 </h2>
+
                 <p className="text-muted-foreground font-sans leading-relaxed mb-4">
                   {article.abstract}
                 </p>
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {article.keywords.map((kw) => (
                     <span
@@ -109,6 +120,7 @@ const Artigos = () => {
                     </span>
                   ))}
                 </div>
+
                 <button className="flex items-center gap-1.5 text-sm font-sans font-medium text-accent hover:text-foreground transition-colors">
                   Ler artigo completo <ArrowRight size={14} />
                 </button>
