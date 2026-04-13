@@ -8,10 +8,10 @@ const books = [
     pages: "150 páginas",
     isbn: "978-85-356-2161-7",
     description:
-      "Parte da coleção Repensando a Religião, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião como campos disciplinares.",
+      "Parte da coleção Repensando a Religião, este livro examina as tensões e diálogos entre as Ciências Sociais e as Ciências da Religião.",
     category: "Epistemologia",
     details:
-      "A obra propõe uma reflexão aprofundada sobre a legitimidade epistemológica das Ciências da Religião, discutindo sua autonomia frente às Ciências Sociais e contribuindo para o debate sobre a constituição do campo de estudo da religião no Brasil.",
+      "Reflexão sobre a legitimidade epistemológica das Ciências da Religião no Brasil.",
     link: "https://www.amazon.com.br/Ci%C3%AAncias-Sociais-Religi%C3%A3o-Pol%C3%AAmicas-Interlocu%C3%A7%C3%B5es/dp/853562161X",
     linkText: "Ver na editora",
   },
@@ -20,11 +20,11 @@ const books = [
     year: "2015",
     publisher: "Editora Appris",
     description:
-      "Versão publicada da pesquisa sobre o MR8, abordando aspectos simbólicos, culturais e rituais da organização.",
+      "Versão publicada da pesquisa sobre o MR8, abordando aspectos simbólicos e culturais.",
     category: "Antropologia",
     details:
-      "Estudo antropológico sobre o imaginário, práticas e identidade de uma organização comunista no Brasil durante o período da ditadura.", // baseado na descrição :contentReference[oaicite:0]{index=0}
-    link: "https://www.amazon.com.br/Os-melhores-Filhos-do-Povo/dp/8581926703/ref=sr_1_6",
+      "Estudo sobre identidade, ritual e imaginário em organização política brasileira.",
+    link: "https://www.amazon.com.br/Os-melhores-Filhos-do-Povo/dp/8581926703",
     linkText: "Ver na Amazon",
   },
   {
@@ -45,12 +45,25 @@ const books = [
     year: "2014",
     publisher: "Editora Santuário",
     description:
-      "Uma análise das relações e diálogos entre o Espiritismo, a Nova Era e o Cristianismo histórico.",
+      "Análise das relações entre Espiritismo, Nova Era e Cristianismo.",
     category: "Religião",
     details:
-      "Investigação das interações entre diferentes matrizes religiosas, com enfoque histórico e antropológico.",
+      "Estudo histórico e antropológico das interações entre essas correntes religiosas.",
     link: "https://b88532cb-2d92-4689-b6a8-a135e2c9b5d4.filesusr.com/ugd/613bfc_2e49b65b95b545cc9eec6758d3b62194.pdf",
     linkText: "Acessar PDF",
+  },
+  {
+    title: "Espiritismo em Sete Lições",
+    year: "2022",
+    publisher: "Editora Vozes",
+    pages: "136 páginas",
+    description:
+      "Apresentação didática do Espiritismo em sete dimensões fundamentais.",
+    category: "Religião",
+    details:
+      "Explora origem, doutrina, práticas e expansão do espiritismo de forma acessível.",
+    link: "https://www.amazon.com.br/Espiritismo-li%C3%A7%C3%B5es-Marcelo-Ayres-Camur%C3%A7a/dp/6557133292",
+    linkText: "Ver na Amazon",
   },
 ];
 
@@ -66,7 +79,7 @@ const Livros = () => {
             Livros Publicados
           </h1>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto font-sans">
-            Uma seleção das principais obras que marcaram o estudo das religiões no Brasil.
+            Produção acadêmica e editorial na área de Ciências da Religião e Antropologia.
           </p>
         </div>
       </section>
