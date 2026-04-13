@@ -173,7 +173,6 @@ const Sobre = () => {
       Universidade Federal do Ceará (1983)
     </p>
   </div>
-
 </div>
       </section>
     </div>
