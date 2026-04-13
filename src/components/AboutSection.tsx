@@ -46,23 +46,15 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
               <p>
-                Professor Titular aposentado do Departamento de Ciência da Religião da Universidade
-                Federal de Juiz de Fora (UFJF), Marcelo Ayres Camurça é uma das principais
-                referências brasileiras no estudo das religiões, com pesquisas que abrangem
-                laicidade, pluralismo religioso, religião no espaço público e espiritualidades contemporâneas.
+                Marcelo Camurça é Professor Titular do Departamento de Ciência da Religião da UFJF.
+                Atuou no PPCIR por cerca de 25 anos, aposentando-se em 2018 e retornando como professor
+                convidado. Doutorou-se em Antropologia Social no Museu Nacional (UFRJ) e realizou
+                pós-doutorado no GSRL da École Pratique des Hautes Études em Paris.
               </p>
               <p>
-                Pesquisador do CNPq, membro do ISER (Instituto de Estudos da Religião) e da
-                ABA (Associação Brasileira de Antropologia), sua trajetória acadêmica é marcada
-                pela interlocução entre as Ciências Sociais e as Ciências da Religião, contribuindo
-                para o avanço teórico e metodológico da área no Brasil.
-              </p>
-              <p>
-                Mesmo aposentado, continua atuante como pesquisador e escritor. É autor de obras
-                de referência como <em>Ciências Sociais e Ciências da Religião — Polêmicas e
-                Interlocuções</em> (Paulinas, 2008) e co-organizador da edição especial
-                "A religião no espaço público" da revista <em>Horizontes Antropológicos</em> (2018),
-                além de dezenas de artigos publicados em periódicos nacionais e internacionais.
+                Dedica-se aos estudos de Antropologia e Sociologia da Religião, com foco em Catolicismo,
+                Espiritismo, neo-esoterismos religiosos, religião e política e laicidade. Sua produção
+                abrange dezenas de livros, capítulos e artigos disponibilizados neste site.
               </p>
             </div>
           </div>
