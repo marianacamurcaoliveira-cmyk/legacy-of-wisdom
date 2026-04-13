@@ -23,8 +23,7 @@ const HeroSection = () => {
             className="text-primary-foreground/80 text-lg md:text-xl max-w-xl mx-auto mb-10 animate-fade-in-up font-sans font-light leading-relaxed"
             style={{ animationDelay: "0.2s" }}
           >
-            Mais de 50 anos dedicados à Ciência da Religião — investigando
-            laicidade, pluralismo religioso e espiritualidades contemporâneas no Brasil.
+           Intelectual e pesquisador de destaque na Antropologia e Sociologia da Religião, referência nos estudos do campo religioso brasileiro, analisando as relações entre religião, espaço público, política e laicidade em perspectivas nacionais e comparadas
           </p>
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
