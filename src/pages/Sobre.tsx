@@ -58,23 +58,27 @@ const Sobre = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground font-sans leading-relaxed">
                 <p>
-                  Professor Titular aposentado do Departamento de Ciência da Religião da Universidade
-                  Federal de Juiz de Fora (UFJF), Marcelo Ayres Camurça é uma das principais
-                  referências brasileiras no estudo das religiões, com pesquisas que abrangem
-                  laicidade, pluralismo religioso, religião no espaço público e espiritualidades contemporâneas.
+                  Marcelo Camurça é Professor Titular do Departamento de Ciência da Religião da Universidade
+                  Federal de Juiz de Fora (UFJF). Atua no Programa de Pós-Graduação em Ciência da Religião
+                  (PPCIR) por cerca de 25 anos onde se aposentou em 2018 e retornou como professor convidado.
                 </p>
                 <p>
-                  Pesquisador do CNPq, membro do ISER (Instituto de Estudos da Religião) e da
-                  ABA (Associação Brasileira de Antropologia), sua trajetória acadêmica é marcada
-                  pela interlocução entre as Ciências Sociais e as Ciências da Religião, contribuindo
-                  para o avanço teórico e metodológico da área no Brasil.
+                  Se doutorou em 1994 no Programa de Pós-Graduação em Antropologia do Museu Nacional no Rio
+                  de Janeiro e fez seu pós-doutorado em 2008-2009 no Groupe Sociétés, Religions, Laïcités
+                  (GSRL) da École Pratique des Hautes Études em Paris.
                 </p>
                 <p>
-                  Mesmo aposentado, continua atuante como pesquisador e escritor. É autor de obras
-                  de referência como <em>Ciências Sociais e Ciências da Religião — Polêmicas e
-                  Interlocuções</em> (Paulinas, 2008) e co-organizador da edição especial
-                  "A religião no espaço público" da revista <em>Horizontes Antropológicos</em> (2018),
-                  além de dezenas de artigos publicados em periódicos nacionais e internacionais.
+                  Dedica-se aos estudos de Antropologia e Sociologia da Religião atuando nas Linhas de
+                  Pesquisa de "Campo Religioso Brasileiro" e "Religião e Espaço Público". Desta perspectiva
+                  produziu dezenas de livros, capítulos e artigos que estão todos disponibilizados neste site
+                  para consulta e leitura.
+                </p>
+                <p>
+                  Os temas que tem mais se dedicado e que estão desenvolvidos na sua produção acadêmica são:
+                  Catolicismo, Espiritismo, neo-esoterismos religiosos, religião e política, laicidade.
+                  Também possui uma reflexão sobre a relação entre as Ciências Sociais e as Ciências da
+                  Religião. Estes temas privilegiam a realidade brasileira, mas possui também estudos
+                  comparados com a realidade latino-americana e com o caso da França.
                 </p>
               </div>
 
@@ -82,7 +86,7 @@ const Sobre = () => {
                 Áreas de Pesquisa
               </h3>
               <div className="flex flex-wrap gap-2">
-                {["Laicidade", "Pluralismo Religioso", "Religião no Espaço Público", "Espiritualidades Contemporâneas", "Religiões Afro-brasileiras", "Ciências Sociais da Religião", "Antropologia da Religião"].map((area) => (
+                {["Catolicismo", "Espiritismo", "Neo-esoterismos Religiosos", "Religião e Política", "Laicidade", "Ciências Sociais e Ciências da Religião", "Campo Religioso Brasileiro", "Religião e Espaço Público"].map((area) => (
                   <span
                     key={area}
                     className="text-xs font-sans font-semibold uppercase tracking-wider text-accent bg-accent/10 px-3 py-1.5 rounded-full"
@@ -97,12 +101,12 @@ const Sobre = () => {
               </h3>
               <div className="space-y-3 text-muted-foreground font-sans">
                 <div className="border-l-2 border-accent/30 pl-4">
-                  <p className="font-semibold text-foreground">Doutorado em Antropologia Social</p>
-                  <p className="text-sm">Museu Nacional — UFRJ</p>
+                  <p className="font-semibold text-foreground">Pós-Doutorado</p>
+                  <p className="text-sm">GSRL — École Pratique des Hautes Études, Paris (2008-2009)</p>
                 </div>
                 <div className="border-l-2 border-accent/30 pl-4">
-                  <p className="font-semibold text-foreground">Mestrado em Ciências Sociais</p>
-                  <p className="text-sm">IFCS — UFRJ</p>
+                  <p className="font-semibold text-foreground">Doutorado em Antropologia Social</p>
+                  <p className="text-sm">Museu Nacional — UFRJ (1994)</p>
                 </div>
               </div>
             </div>
