@@ -13,6 +13,20 @@ const books = [
     details:
       "A obra propõe uma reflexão aprofundada sobre a legitimidade epistemológica das Ciências da Religião, discutindo sua autonomia frente às Ciências Sociais e contribuindo para o debate sobre a constituição do campo de estudo da religião no Brasil.",
     link: "https://www.amazon.com.br/Ci%C3%AAncias-Sociais-Religi%C3%A3o-Pol%C3%AAmicas-Interlocu%C3%A7%C3%B5es/dp/853562161X",
+    linkText: "Ver na editora",
+  },
+  {
+    title:
+      'Os "Melhores Filhos do Povo"',
+    year: "1994",
+    publisher: "PPGAS – Museu Nacional",
+    description:
+      "Tese de doutorado defendida em 1994 no PPGAS do Museu Nacional.",
+    category: "Antropologia",
+    details:
+      'Os "Melhores filhos do Povo" - Um estudo do ritual e do simbólico numa organização comunista: O caso do MR8.',
+    link: "https://b88532cb-2d92-4689-b6a8-a135e2c9b5d4.filesusr.com/ugd/613bfc_924fad6176384d35a6c6433bed4e0167.pdf",
+    linkText: "Acessar PDF",
   },
 ];
 
@@ -78,7 +92,7 @@ const Livros = () => {
                     className="flex items-center gap-2 text-sm font-sans font-medium text-accent hover:text-foreground transition-colors"
                   >
                     <ExternalLink size={14} />
-                    Ver na editora
+                    {book.linkText}
                   </a>
                 </div>
               </article>
